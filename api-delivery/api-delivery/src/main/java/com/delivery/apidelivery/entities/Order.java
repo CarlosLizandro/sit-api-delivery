@@ -12,7 +12,6 @@ public class Order {
     private LocalDateTime creationTime;
     private LocalDateTime estimatedDeliveryTime;
     private List<Plate> items;
-    private String test;
 
     public Order(Integer id, String customerName, String customerEmail, boolean status, LocalDateTime creationTime, LocalDateTime estimatedDeliveryTime, List<Plate> items) {
         this.id = id;
